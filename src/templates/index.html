@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Joyas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/productos">Productos</a>
+        <a href="/contacto">Contacto</a>
+    </nav>
+
+    <h1 class="title"> Lionel Messi</h1>
+    <p class="desciripcion">
+        Messi es un futbolista unico y el mejor de la historia con un talento nato.
+    </p>
+    <img class="joya" src="{{ url_for('static', filename= 'img/joya1.jpg') }}" alt="Joya">
+
+</body>
+</html>
